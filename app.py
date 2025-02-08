@@ -25,7 +25,6 @@ filtered_df = df[(df["type"].isin(content_type)) & (df["country"].isin(countries
 st.title("📊 Netflix EDA & Visualization Dashboard")
 st.markdown("---")
 
-st.markdown("---")
 st.write("### Data Preview")
 st.dataframe(filtered_df)
 
